@@ -31,7 +31,6 @@ def load_file(path: Path, raw_root: Path) -> Document | None:
     try:
         text = path.read_text(encoding="utf-8")
     except UnicodeDecodeError:
-        # Try latin-1 as a fallback for files that aren't clean UTF-8.
         text = path.read_text(encoding="latin-1")
 
     if not text.strip():
