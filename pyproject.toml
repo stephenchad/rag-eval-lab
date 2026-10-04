@@ -1,0 +1,23 @@
+[project]
+name = "rag-eval-lab"
+version = "0.1.0"
+description = "Production-grade RAG system with hybrid retrieval, evaluation harness, and tracing."
+requires-python = ">=3.11"
+dependencies = [
+    "pydantic>=2.7",
+    "pydantic-settings>=2.3",
+    "python-dotenv>=1.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.6",
+    "mypy>=1.11",
+]
+
+[tool.ruff]
+line-length = 100
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
