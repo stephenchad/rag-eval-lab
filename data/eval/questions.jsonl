@@ -1,0 +1,15 @@
+{"qid": "q01", "question": "What is self-attention and how does it work?", "expected_doc": "transformer_notes.md"}
+{"qid": "q02", "question": "How does multi-head attention differ from single attention?", "expected_doc": "transformer_notes.md"}
+{"qid": "q03", "question": "Why does the transformer need positional encoding?", "expected_doc": "transformer_notes.md"}
+{"qid": "q04", "question": "What is the role of the feed-forward layer in a transformer block?", "expected_doc": "transformer_notes.md"}
+{"qid": "q05", "question": "What is the practical impact of the transformer architecture?", "expected_doc": "transformer_notes.md"}
+{"qid": "q06", "question": "How do you run multiple coroutines concurrently in asyncio?", "expected_doc": "asyncio_notes.txt"}
+{"qid": "q07", "question": "What kind of workloads is asyncio best suited for?", "expected_doc": "asyncio_notes.txt"}
+{"qid": "q08", "question": "How does the asyncio event loop schedule coroutines?", "expected_doc": "asyncio_notes.txt"}
+{"qid": "q09", "question": "Is asyncio a replacement for multiprocessing?", "expected_doc": "asyncio_notes.txt"}
+{"qid": "q10", "question": "What is an embedding in the context of vector search?", "expected_doc": "vector_search.md"}
+{"qid": "q11", "question": "Why use approximate nearest neighbor instead of exact search?", "expected_doc": "vector_search.md"}
+{"qid": "q12", "question": "What problem does hybrid search solve?", "expected_doc": "vector_search.md"}
+{"qid": "q13", "question": "What is reciprocal rank fusion used for?", "expected_doc": "vector_search.md"}
+{"qid": "q14", "question": "How does a cross-encoder reranker differ from an embedding model?", "expected_doc": "vector_search.md"}
+{"qid": "q15", "question": "How is cosine similarity used to compare vectors?", "expected_doc": "vector_search.md"}
